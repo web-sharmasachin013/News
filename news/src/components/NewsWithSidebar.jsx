@@ -1,5 +1,9 @@
 import React from "react";
-
+import TrendingNews from "./TrendingNews";
+import Newsletter from "./Newsletter";
+import Tags from "./Tags";
+import FollowUs from "./FollowUs";
+import Ads from "./Ads";
 const NewsWithSidebar = () => {
   return (
     <>
@@ -423,119 +427,16 @@ const NewsWithSidebar = () => {
             {/* Sidebar */}
             <div className="col-lg-4">
               {/* Social Follow */}
-              <div className="mb-3">
-                <div className="section-title mb-0">
-                  <h4 className="m-0 text-uppercase font-weight-bold">
-                    Follow Us
-                  </h4>
-                </div>
-                <div className="bg-white border border-top-0 p-3">
-                  <a
-                    href=""
-                    className="d-block w-100 text-white text-decoration-none mb-3"
-                    style={{ background: "#39569E" }}
-                  >
-                    <i
-                      className="fab fa-facebook-f text-center py-4 mr-3"
-                      style={{ width: "65px", background: "rgba(0,0,0,.2)" }}
-                    ></i>
-                    <span className="font-weight-medium">12,345 Fans</span>
-                  </a>
-
-                  <a
-                    href=""
-                    class="d-block w-100 text-white text-decoration-none mb-3"
-                    style={{ background: "#52AAF4" }}
-                  >
-                    <i
-                      className="fab fa-twitter text-center py-4 mr-3"
-                      style={{ width: "65px", background: "rgba(0,0,0,.2)" }}
-                    ></i>
-                    <span className="font-weight-medium">12,345 Followers</span>
-                  </a>
-
-                  <a
-                    href=""
-                    class="d-block w-100 text-white text-decoration-none mb-3"
-                    style={{ background: "#52AAF4" }}
-                  >
-                    <i
-                      className="fab fa-linkedin-in text-center py-4 mr-3"
-                      style={{ width: "65px", background: "#0185AE" }}
-                    ></i>
-                    <span className="font-weight-medium">12,345 Followers</span>
-                  </a>
-
-                  <a
-                    href=""
-                    class="d-block w-100 text-white text-decoration-none mb-3"
-                    style={{ background: "#52AAF4" }}
-                  >
-                    <i
-                      className="fab fa-instagram text-center py-4 mr-3"
-                      style={{ width: "65px", background: "#C8359D" }}
-                    ></i>
-                    <span className="font-weight-medium">12,345 Followers</span>
-                  </a>
-
-                  <a
-                    href=""
-                    class="d-block w-100 text-white text-decoration-none mb-3"
-                    style={{ background: "#52AAF4" }}
-                  >
-                    <i
-                      className="fab fa-youtube text-center py-4 mr-3"
-                      style={{ width: "65px", background: "#DC472E" }}
-                    ></i>
-                    <span className="font-weight-medium">12,345 Followers</span>
-                  </a>
-
-                  <a
-                    href=""
-                    class="d-block w-100 text-white text-decoration-none mb-3"
-                    style={{ background: "#52AAF4" }}
-                  >
-                    <i
-                      className="fab fa-vimeo-v text-center py-4 mr-3"
-                      style={{ width: "65px", background: "#055570" }}
-                    ></i>
-                    <span className="font-weight-medium">12,345 Followers</span>
-                  </a>
-                  {/* Add remaining social items exactly as in your HTML */}
-                </div>
-              </div>
-
+              <FollowUs />
               {/* Ads */}
-              <div className="mb-3">
-                <div className="section-title mb-0">
-                  <h4 className="m-0 text-uppercase font-weight-bold">
-                    Advertisement
-                  </h4>
-                </div>
-                <div className="bg-white text-center border border-top-0 p-3">
-                  <a href="">
-                    <img
-                      className="img-fluid"
-                      src="img/news-800x500-2.jpg"
-                      alt=""
-                    />
-                  </a>
-                </div>
-              </div>
+              <Ads />
 
               {/* Trending News */}
-              <div className="mb-3">
-                <div className="section-title mb-0">
-                  <h4 className="m-0 text-uppercase font-weight-bold">
-                    Tranding News
-                  </h4>
-                </div>
-                <div className="bg-white border border-top-0 p-3">
-                  {/* Add trending news items using the same HTML pattern */}
-                </div>
-              </div>
-
+              <TrendingNews />
               {/* Newsletter, Tags, etc. */}
+              <Newsletter />
+              {/* tags */}
+              <Tags />
             </div>
           </div>
         </div>
