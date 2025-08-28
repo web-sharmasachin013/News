@@ -87,11 +87,7 @@ const Topbar = () => {
         </div>
         <div className="col-lg-8 text-center text-lg-right">
           <a href="https://htmlcodex.com">
-            <img
-              className="img-fluid"
-              src="/img/ads-728x90.png"
-              alt="Advertisement"
-            />
+            <img className="img-fluid" src="/img/728x90.png" />
           </a>
         </div>
       </div>

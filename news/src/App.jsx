@@ -1,19 +1,20 @@
-// import Topbar from "./components/Topbar";
-// import Navbar from "./components/Navbar";
-// import MainNewsSlider from "./components/MainNewsSlider";
-// import BreakingNews from "./components/BreakingNews";
-// import Footer from "./components/Footer";
-// import BackToTop from "./components/BackToTop";
-// import FeaturedNewsSlider from "./components/FeaturedNewsSlider";
-// import NewsWithSidebar from "./components/NewsWithSidebar";
+import { Route, Routes } from "react-router-dom";
 import React from "react";
 import Home from "./Pages/Home";
 import "./global";
+import Category from "./Pages/Category";
+import Single from "./Pages/Single";
+import Contact from "./Pages/Contact";
 
 function App() {
   return (
     <>
-      <Home />
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/category" element={<Category />} />
+        <Route path="/single" element={<Single />}></Route>
+        <Route path="/contact" element={<Contact />}></Route>
+      </Routes>
     </>
   );
 }
