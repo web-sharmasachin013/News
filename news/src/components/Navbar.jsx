@@ -1,6 +1,19 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+  const nav = useNavigate();
+  const handleNavigation = (x) => {
+    nav(x);
+  };
+
+  // const handlecategoryNavigation = () => {
+  //   nav("/category");
+  // };
+
+  // const handlecategoryNavigation = () => {
+  //   nav("/category");
+  // };
   return (
     <div className="container-fluid p-0">
       <nav className="navbar navbar-expand-lg bg-dark navbar-dark py-2 py-lg-0 px-lg-5">
@@ -27,13 +40,28 @@ const Navbar = () => {
           id="navbarCollapse"
         >
           <div className="navbar-nav mr-auto py-0">
-            <a href="/" className="nav-item nav-link active">
+            <a
+              onClick={() => {
+                nav("/");
+              }}
+              className="nav-item nav-link active"
+            >
               Home
             </a>
-            <a href="/category" className="nav-item nav-link">
+            <a
+              onClick={() => {
+                nav("/category");
+              }}
+              className="nav-item nav-link"
+            >
               Category
             </a>
-            <a href="/single" className="nav-item nav-link">
+            <a
+              onClick={() => {
+                nav("/single");
+              }}
+              className="nav-item nav-link"
+            >
               Single News
             </a>
 
@@ -59,7 +87,12 @@ const Navbar = () => {
               </div>
             </div>
 
-            <a href="/contact" className="nav-item nav-link">
+            <a
+              onClick={() => {
+                nav("/contact");
+              }}
+              className="nav-item nav-link"
+            >
               Contact
             </a>
           </div>
