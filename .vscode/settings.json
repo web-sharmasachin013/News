@@ -1,0 +1,14 @@
+{
+  "workbench.colorTheme": "Dark Chai",
+  "editor.fontSize": 16,
+  "editor.tabSize": 2,
+
+  // ✅ Auto-save
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+
+  // ✅ Prettier auto-format
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true
+}
