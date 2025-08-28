@@ -441,6 +441,66 @@ const NewsWithSidebar = () => {
                     ></i>
                     <span className="font-weight-medium">12,345 Fans</span>
                   </a>
+
+                  <a
+                    href=""
+                    class="d-block w-100 text-white text-decoration-none mb-3"
+                    style={{ background: "#52AAF4" }}
+                  >
+                    <i
+                      className="fab fa-twitter text-center py-4 mr-3"
+                      style={{ width: "65px", background: "rgba(0,0,0,.2)" }}
+                    ></i>
+                    <span className="font-weight-medium">12,345 Followers</span>
+                  </a>
+
+                  <a
+                    href=""
+                    class="d-block w-100 text-white text-decoration-none mb-3"
+                    style={{ background: "#52AAF4" }}
+                  >
+                    <i
+                      className="fab fa-linkedin-in text-center py-4 mr-3"
+                      style={{ width: "65px", background: "#0185AE" }}
+                    ></i>
+                    <span className="font-weight-medium">12,345 Followers</span>
+                  </a>
+
+                  <a
+                    href=""
+                    class="d-block w-100 text-white text-decoration-none mb-3"
+                    style={{ background: "#52AAF4" }}
+                  >
+                    <i
+                      className="fab fa-instagram text-center py-4 mr-3"
+                      style={{ width: "65px", background: "#C8359D" }}
+                    ></i>
+                    <span className="font-weight-medium">12,345 Followers</span>
+                  </a>
+
+                  <a
+                    href=""
+                    class="d-block w-100 text-white text-decoration-none mb-3"
+                    style={{ background: "#52AAF4" }}
+                  >
+                    <i
+                      className="fab fa-youtube text-center py-4 mr-3"
+                      style={{ width: "65px", background: "#DC472E" }}
+                    ></i>
+                    <span className="font-weight-medium">12,345 Followers</span>
+                  </a>
+
+                  <a
+                    href=""
+                    class="d-block w-100 text-white text-decoration-none mb-3"
+                    style={{ background: "#52AAF4" }}
+                  >
+                    <i
+                      className="fab fa-vimeo-v text-center py-4 mr-3"
+                      style={{ width: "65px", background: "#055570" }}
+                    ></i>
+                    <span className="font-weight-medium">12,345 Followers</span>
+                  </a>
                   {/* Add remaining social items exactly as in your HTML */}
                 </div>
               </div>
