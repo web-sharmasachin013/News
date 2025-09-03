@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
-import './SearchBar.css'; // Optional CSS file for styling
+import React, { useState } from "react";
 
 const SearchBar = ({ onSearch, placeholder = "Search for anything..." }) => {
-  const [searchTerm, setSearchTerm] = useState('');
+  const [searchTerm, setSearchTerm] = useState("");
 
   const handleInputChange = (e) => {
     setSearchTerm(e.target.value);
@@ -15,7 +14,7 @@ const SearchBar = ({ onSearch, placeholder = "Search for anything..." }) => {
   };
 
   const handleKeyPress = (e) => {
-    if (e.key === 'Enter') {
+    if (e.key === "Enter") {
       handleSearch();
     }
   };

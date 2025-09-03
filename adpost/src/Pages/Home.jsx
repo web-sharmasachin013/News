@@ -7,18 +7,12 @@ import FeaturedNewsSlider from "../components/FeaturedNewsSlider";
 import NewsWithSidebar from "../components/NewsWithSidebar";
 import Footer from "../components/Footer";
 import BackToTop from "../components/BackToTop";
+import Header from "../components/header/Header";
 
 const Home = () => {
   return (
     <>
-      <Topbar />
-      <Navbar />
-      <MainNewsSlider />
-      <BreakingNews />
-      <FeaturedNewsSlider />
-      <NewsWithSidebar />
-      <Footer />
-      <BackToTop />
+      <Header />
     </>
   );
 };
