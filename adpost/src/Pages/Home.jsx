@@ -8,11 +8,13 @@ import NewsWithSidebar from "../components/NewsWithSidebar";
 import Footer from "../components/Footer";
 import BackToTop from "../components/BackToTop";
 import Header from "../components/header/Header";
+import ClassifiedAds from "../components/ClassifiedAds";
 
 const Home = () => {
   return (
     <>
       <Header />
+      <ClassifiedAds />
     </>
   );
 };
